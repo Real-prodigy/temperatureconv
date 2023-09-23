@@ -71,7 +71,10 @@ body{
     color: white;
     align-self: center;
     margin-right: 20px;
-    
+
+      transition: opacity 1s,
+        box-shadow 1s,
+        cursor 1s;
   }
 
   #resetField{
@@ -82,15 +85,20 @@ body{
     background-color: blue;
     color: white;
     align-self: center;
-    
+      
+    transition: opacity 1s,
+        box-shadow 1s,
+        cursor 1s;
   }
     
   #calculate:hover, #resetField:hover{
     cursor: pointer;
     opacity:0.8;
+    box-shadow:5px 10px 10px rgba(0, 0, 0, 0.5);
   }
 #calculate:active, #resetField:active{
     opacity:0.4;
+    box-shadow:5px 10px 10px rgba(0, 0, 0, 0.5);
   }
 
   .calculateANDresetDiv, .chooseDiv{
