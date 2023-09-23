@@ -94,11 +94,11 @@ body{
   #calculate:hover, #resetField:hover{
     cursor: pointer;
     opacity:0.8;
-    box-shadow:5px 10px 10px rgba(0, 0, 0, 0.5);
+    box-shadow:0px 5px 10px rgba(0, 0, 0, 0.5);
   }
 #calculate:active, #resetField:active{
     opacity:0.4;
-    box-shadow:5px 10px 10px rgba(0, 0, 0, 0.5);
+    box-shadow:0px 5px 10px rgba(0, 0, 0, 0.5);
   }
 
   .calculateANDresetDiv, .chooseDiv{
