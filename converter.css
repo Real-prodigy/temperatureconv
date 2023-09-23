@@ -87,8 +87,12 @@ body{
     
   #calculate:hover, #resetField:hover{
     cursor: pointer;
-    background-color: rgb(62, 62, 212);
+    opacity:0.8;
   }
+#calculate:active, #resetField:active{
+    opacity:0.4;
+  }
+
   .calculateANDresetDiv, .chooseDiv{
     display: flex;
     justify-content: center;
